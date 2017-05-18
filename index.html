@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+  <html lang="en-us">
+  
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+  <title>Activity</title>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-default">
+     <div class="container">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="http://www.nba.com/"> NBA Hangman Game !</a>
+       </div>
+     </div>
+   </nav>
+
+      
+      <div class="container">
+     <div class="row">
+       <div class="col-md-8">
+         <div class="page-header">
+               <h2>Let's Play</h2>
+              </div>          
+              <div class="row">
+              <div class="col-md-3">
+                <img src="assets/images/1.jpeg" alt="Placeholder" class="img-thumbnail" href="http://www.nba.com/video/top10">
+         </div>  
+        <div class="col-md-9">
+        <p>
+          <strong>HOW TO PLAY:</strong> Choose one person to be the executioner. That person will think of a word or short phrase an mark out blanks (short lines) for each letter of each word. Separate words with either a slash, a fairly wide gap, or place words on separate lines. Then another player will guess a letter. If that letter is in the word(s) then write the letter in everywhere it would appear, an cross out that letter in the alphabet. If the letter isn't in the word then add a body part to the gallows (head, body, left arm, right arm, left leg, right leg). The player will continue guessing letters until they can either solve the word (or phrase) or all six body parts are on the gallows</p>           
+    </div>            
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">NBA Champion 2016! </h3>
+        </div>
+            <div align="center" class="embed-responsive embed-responsive-16by9">
+                <video autoplay loop class="embed-responsive-item">
+                  <source src=http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/06/09/1465433268982-CAVS_FINALS_OPEN_060816.mp4-581154_1280x720.mp4 type=video/mp4>
+                </video>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+     <div class="row">
+       <div class="col-md-8">
+         <div class="page-header">
+               <h2>NBA Teams</h2>
+              </div>          
+              <div class="row">
+              <div class="col-md-3">
+                <img src="assets/images/5.jpeg" alt="Placeholder" class="img-thumbnail">
+         </div>  
+        <div class="col-md-9">
+      <h1>Hangman</h1>
+
+          <p><strong>Let's play ball</strong></p>
+          <form id="hangman">
+         <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+         <input id="guess" name="guess" type="submit" value="Guess" />
+        <button id="restart" name="restart" type="button">Restart</button>
+        </form>
+        <ul id="letters"></ul>
+        <p id="man"></p>
+        <p id="output" class="output"></p>
+    </div>            
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">GOAT</h3>
+        </div>
+            <div align="center">
+
+                  <img src="assets/images/2.jpeg" alt="Placeholder" class="img-thumbnail">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+   
+  </div>
+  <div class="panel-footer"> Copyright &copy; 2016 Jose Rivas</div>
+</div>
+
+
+    <script type="text/javascript" src="Assets/javascript/game.js"></script>
+  <!-- jQuery CDN -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 
+   <!-- Bootstrap JavaScript CDN -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   
+  </body>
+
+  </html>
